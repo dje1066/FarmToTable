@@ -1,0 +1,107 @@
+
+div#grey {
+	background-color: gainsboro;
+	position: relative;
+	margin-top: 4%;
+	height: 250px;
+	z-index: 9;
+}
+
+/*
+img#logo {
+	margin-left: 46%;
+	margin-right:auto;
+	position: relative;
+	z-index: 10;
+}
+*/
+
+.navigation-bar {
+    float: right;
+	position: relative;
+    list-style: none;
+    margin-top: 5px;
+	z-index: 11;
+}
+
+.navigation-bar li {
+    display: inline-block;
+}
+
+.navigation-bar li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.navigation-bar li a:hover {
+    background-color: gray;
+    color: firebrick;
+}
+
+.logo img {
+    width: 75px;
+    float: left;
+    height: auto;
+    margin-top: -5px;
+    margin-left: -5px;
+	position: absolute;
+	z-index: 10;
+}
+
+h1 {
+	color: firebrick;
+	font-size: 45px;
+	position: relative;
+	z-index: 10;
+}
+
+form input[type=text] {
+	padding: 15px;
+	font-size: 17px;
+	border: none;
+	width: 50%;
+	position: relative;
+	margin-left: 24%;
+	z-index: 10;
+}
+
+form input[type=submit] {
+	width: 5%;
+	padding: 17px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+}
+
+div#search {
+	position: relative;
+	animation-name: enter;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes enter {
+	from {bottom: -55px;}
+	to {bottom: 0px;}
+}
+
+/*div#search {
+	opacity: 0;
+}
+
+div#search @keyframes {
+	opacity: 1.0;
+}*/
+
+#bgvid {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.7;
+}
+

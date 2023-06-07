@@ -1,0 +1,78 @@
+
+body {
+	background-color: gainsboro;
+}
+
+h1 {
+	color: firebrick;
+	font-size: 40px;
+}
+
+p {
+	text-align: justify;
+}
+
+p::first-letter {
+	font-size: xx-large;
+}
+
+article {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	max-width: 700px;
+	background-color: #ac5353;
+	padding: 4em;
+}
+
+img#toast {
+	margin-left: 6%;
+	margin-right: auto;
+	margin-top: 8%;
+	float: left;
+}
+
+img#peaches {
+	margin-left: auto;
+	margin-right: 6%;
+	float: right;
+}
+
+/*
+img#logo {
+	margin-left: 46%;
+	margin-right: auto;
+}
+*/
+
+.navigation-bar {
+    float: right;
+	position: relative;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.navigation-bar li {
+    display: inline-block;
+}
+
+.navigation-bar li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.navigation-bar li a:hover {
+    background-color: gray;
+    color: firebrick;
+}
+
+.logo img {
+    width: 75px;
+    float: left;
+    height: auto;
+	margin-left: -5px;
+	margin-top: -5px;
+}

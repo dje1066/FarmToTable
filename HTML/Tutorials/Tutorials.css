@@ -1,0 +1,21 @@
+
+
+h1, form {
+	display: inline-block;
+	margin-right: 10%;
+	margin-left: 20%;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	border-spacing: 55px;
+}
+
+img#logo {
+	margin-left: 50%;
+	margin-right: auto;
+}

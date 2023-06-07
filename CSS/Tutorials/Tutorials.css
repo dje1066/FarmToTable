@@ -1,0 +1,80 @@
+
+body {
+	background-color: gainsboro;
+}
+
+h1 {
+	margin-left: 20%;
+	color: firebrick;
+	font-size: 40px;
+}
+
+h1, form {
+	display: inline-block;
+	margin-right: 300px;
+}
+
+/*form {
+	margin-left: 45%;
+}
+*/
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	border-spacing: 55px;
+}
+
+/*
+img#logo {
+	margin-left: 46%;
+	margin-right: auto;
+}
+*/
+
+.navigation-bar {
+    float: right;
+	position: relative;
+    list-style: none;
+    margin-top: 5px;
+	z-index: 11;
+}
+
+.navigation-bar li {
+    display: inline-block;
+}
+
+.navigation-bar li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.navigation-bar li a:hover {
+    background-color: gray;
+    color: firebrick;
+}
+
+.logo img {
+    width: 75px;
+    float: left;
+    height: auto;
+	margin-left: -5px;
+	margin-top: -5px;
+}
+
+div#references {
+	width: 50%;
+	height: 300px;
+	overflow: auto;
+	margin-left: 25%;
+}
+
+div#grad {
+	height: 500px;
+	background-image: linear-gradient(to bottom, rgb(178, 34, 34,0), rgb(178, 34, 34,0.5));
+}
